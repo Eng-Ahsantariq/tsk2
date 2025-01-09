@@ -1,0 +1,68 @@
+div{
+    height: 100px;
+    width: 500px;
+    margin: auto;
+    display: block;
+}
+.same1{
+    background-color: rgb(93, 190, 54);
+    height: 100px;
+    width: 500px;
+}
+.same2{
+    background-color: rgb(255, 196, 1);
+}
+.same3{
+    background-color: rgb(85, 71, 206);
+}
+ .same4{
+    text-align: center;
+ }
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background: #c1c1c1;
+ }
+ .a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100vh;
+ }
+
+ .flag{
+    width: 300px;
+    height: 100px;
+    
+
+ }
+
+ .rectangle{
+    display: block;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: #ce1126;
+    clip-path: polygon(0 0,0 100%, 60% 50%);
+
+ }
+ .line{
+    display: block;
+    width: 300px ;
+    height: 60px;
+
+ }
+ .black{
+    background-color: black;
+ }
+ .white{
+    background-color: white;
+ }
+ .green{
+    background-color: green;
+ }
